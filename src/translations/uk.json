@@ -1,0 +1,18 @@
+{
+    "feelsLike": "Відчувається",
+    "humidity": "Воложність",
+    "wind": "Вітер",
+    "km-h": "км/год",
+    "hourly": "Погодинний",
+    "daily": "Поденний",
+    "forecast": "прогноз",
+    "hh-mm": "HH:mm",
+
+    "sunday": "Неділя",
+    "monday": "Понеділок",
+    "tuesday": "Вівторок",
+    "wednesday": "Середа",
+    "thursday": "Четвер",
+    "friday": "П'ятниця",
+    "saturday": "Субота"
+}

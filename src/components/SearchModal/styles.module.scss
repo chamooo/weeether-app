@@ -1,0 +1,28 @@
+.modalOverlay {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba($color: #000000, $alpha: 0.4);
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    pointer-events: none;
+    z-index: 99;
+    &.active {
+        opacity: 1;
+        pointer-events: all;
+    }
+}
+.modalContent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+}

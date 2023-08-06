@@ -1,0 +1,18 @@
+.inputSolid {
+    background: rgba($color: #fff, $alpha: .2);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.input {
+    padding: 10px 20px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+}

@@ -1,0 +1,16 @@
+.infoList {
+    position: relative;
+    padding-left: 25px;
+    opacity: .9;
+    &:before {
+        content: '';
+        height: 90%;
+        width: 2px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: .2;
+    }
+}

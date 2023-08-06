@@ -1,0 +1,18 @@
+{
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "km-h": "km/h",
+    "hourly": "Hourly",
+    "daily": "Daily",
+    "forecast": "forecast",
+    "hh-mm": "hh:mm",
+
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+}

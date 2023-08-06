@@ -1,0 +1,13 @@
+.langSwitcher {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 50px;
+    gap: 10px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
