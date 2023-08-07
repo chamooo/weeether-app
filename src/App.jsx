@@ -10,6 +10,7 @@ import Input from './UI/Input';
 import getFormattedWeatherData from './services/weatherService';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
+import { formatToLocalTime } from './services/weatherService';
 
 function App() {
     const [isModalOpened, setIsModalOpened] = React.useState(false);
@@ -45,7 +46,11 @@ function App() {
         }
 
         if (weather) {
-            const time = +formatToLocalTime(dt, timezone).split('|').pop().trim().split(':')[0];
+            const time = +formatToLocalTime(weather.dt, weather.timezone)
+                .split('|')
+                .pop()
+                .trim()
+                .split(':')[0];
             let dayTime = 'afternoon';
             if (time >= 5 && time <= 9) dayTime = 'morning';
             else if (time > 9 && time < 15) dayTime = 'afternoon';
